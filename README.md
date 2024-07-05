@@ -6,13 +6,19 @@
   <p>
     Есть очень много недочётов как технических так и внешних, которые обязаны пройти рефакторинг
   </p>
+  <p>
+    Реализован сам принцип переписки с пользователем (Polling), добавление в друзья (два пользователя должны друг-друга добавить, что бы переписка отображалась у двоих), смена аватара
+  </p>
   </div>
   <div>
     <h2>Как запустить я протестировать</h2>
-    <p>1)git clone</p>
-    <p>2)pip -m venv venv в папке с проектом</p>
-    <p>3)pip install -r requirements.txt</p>  
-    <p>4)С первого терминала активируем venv +cd chat и python manage.py runserver</p>  
-    <p>5)Со второго терминала cd reactstart и npm start</p>
+    <p>1) git clone</p>
+    <p>2) pip -m venv venv в папке с проектом</p>
+    <p>3) pip install -r requirements.txt</p>  
+    <p>4) С первого терминала активируем venv +cd chat и python manage.py runserver</p>  
+    <p>5) Со второго терминала cd reactstart и npm start</p>
+  </div>
+  <div>
+    Уже есть пользователи на которых можно протестить работу чата (User,1234)(User2,1234)
   </div>
 </div>
