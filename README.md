@@ -9,12 +9,10 @@
   </div>
   <div>
     <h2>Как запустить я протестировать</h2>
-    <p>
-      1)git clone
-      2)pip -m venv venv в папке с проектом
-      3)pip install -r requirements.txt
-      4)С первого терминала активируем venv +cd chat и python manage.py runserver
-      5)Со второго терминала cd reactstart и npm start
-    </p>
+    <p>1)git clone</p>
+    <p>2)pip -m venv venv в папке с проектом</p>
+    <p>3)pip install -r requirements.txt</p>  
+    <p>4)С первого терминала активируем venv +cd chat и python manage.py runserver</p>  
+    <p>5)Со второго терминала cd reactstart и npm start</p>
   </div>
 </div>
