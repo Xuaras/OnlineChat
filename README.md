@@ -1,5 +1,5 @@
 <h3 align="center">Write a "Clear Code"</h3>
-<div align="center">
+<div align="center" border="1px solid white">
   <h1>"Online Chat"</h1>
   <div>
     
