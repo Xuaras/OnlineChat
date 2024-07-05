@@ -3,5 +3,18 @@
   <h1>"Online Chat"</h1>
   <div>
     Онлайн чат написан на Django Rest + React<p align="center"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> </p>
+  <p>
+    Есть очень много недочётов как технических так и внешних, которые обязаны пройти рефакторинг
+  </p>
+  </div>
+  <div>
+    <h2>Как запустить я протестировать</h2>
+    <p>
+      1)git clone
+      2)pip -m venv venv в папке с проектом
+      3)pip install -r requirements.txt
+      4)С первого терминала активируем venv +cd chat и python manage.py runserver
+      5)Со второго терминала cd reactstart и npm start
+    </p>
   </div>
 </div>
