@@ -1,0 +1,111 @@
+body
+{
+    display: flex;
+    background-color: rgb(108, 108, 174);
+    align-items: center;
+    justify-content: center;
+}
+.container
+{
+    width: 800px;
+    height: 400px;
+    padding: 40px 0;
+    position: relative;
+}
+.block
+{
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 5px 45px black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+.block_item
+{
+    text-align: center;
+    width: 50%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    align-items: center;
+}
+.block_item button
+{
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+
+}
+.form_box
+{
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    box-shadow: 0px 5px 45px black;
+    border-radius: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    transition: 0.5s ease-in-out;
+    align-items: center;
+    overflow: hidden;
+}
+.form_box_active
+{
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    box-shadow: 0px 5px 45px black;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+}
+.form{
+    width: 100%;
+    padding: 50px;
+    align-items: center;
+    position: absolute;
+    
+}
+.form_signin{
+    left: 0;
+}
+.form_signup{
+    left: 100%;
+}
+.form_box_active .form_signin{
+    left: -100%;
+
+}
+.form_box_active .form_signup{
+    left: 0;
+
+}
+.form_title
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    align-items: center;
+    color: black;
+}
+.form_input
+{
+    width: 60%;
+    padding: 10px;
+
+}
+.form button
+{
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 150px;
+    background-color: #a497eb;
+    border-radius: 15px
+}

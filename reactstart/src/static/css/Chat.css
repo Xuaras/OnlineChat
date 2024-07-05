@@ -1,0 +1,256 @@
+.chat_wrapper
+{
+    margin-top: 5px;
+    margin-left: 10px;
+    display: flex;
+    width: 750px;
+    height: 710px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+.chat_list
+{
+    width: 100%;
+    height: 92%;
+    margin-top: 20px;
+    margin-left: 20px;
+    align-items: center;
+}
+.chat_list input
+{
+    width: 86%;
+    text-align: center;
+    background-color: #a497eb;
+    border: none;
+    height: 30px;
+    outline: none;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.chat_message_area
+{
+    height: 590px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.chat_message_area::-webkit-scrollbar { width: 0; }
+.chats 
+{
+    margin-top: 10px;
+    height: 92%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+.chats::-webkit-scrollbar { width: 0px; }
+.frien_list
+{
+    width: 90%;
+    height: 500px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    overflow: auto
+}
+.chat
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    transition: 0.5s;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    height: 60px;
+    cursor: pointer;
+    width: 90%;
+}
+.chat_active
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    transition: 0.5s;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    height: 60px;
+    cursor: pointer;
+    background-color: #9fa1df;
+    transition: 0.5s;
+    width: 90%;
+}
+.chat_active img
+{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.chat_active span
+{
+    margin-left: 10px;
+}
+.chat:hover{
+    background-color: #dbdcff;
+    transition: 0.5s;
+}
+.chat img
+{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.chat span
+{
+    margin-left: 5px;
+}
+.message
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+.message_text
+{
+    margin-left: 10px;
+    max-width: 80%;
+    padding: 10px 10px;
+    background-color: #a497eb;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+.message img
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+.friend_message
+{
+    display: flex;
+    width: 97%;
+    flex-direction: row-reverse;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+.friend_message_text
+{
+    max-width: 80%;
+    margin-right: 10px;
+    padding: 10px 10px;
+    background-color: #a497eb;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+.friend_message img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 10px
+}
+.input_message 
+{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    height: 40px;
+    width: 90%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 0px 10px;
+    background-color: #dbdcff;
+    font-family: "Poppins", sans-serif;
+}
+.send_message_bt
+{
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #dbdcff;
+}
+.send_message_bt img
+{
+    width: 20px;
+    height: 20px;
+}
+.without_friend
+{
+    margin: 0 auto;
+}
+.user_list
+{
+    width: 90%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+.potential_friend
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    position: relative;
+}
+.potential_friend:hover
+{
+    background-color: #dbdcff;
+    transition: 0.5s;
+}
+.potential_friend img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.potential_friend span
+{
+    margin-left: 10px;
+}
+.potential_friend button
+{
+    position: absolute;
+    right: 0;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    border-radius: 10px;
+}
