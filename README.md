@@ -2,7 +2,7 @@
 <div align="center" border="1px solid white">
   <h1>"Online Chat"</h1>
   <div>
-    
+    Онлайн чат написан на Django Rest + React
   </div>
 </div>
 <h3 align="left">Languages and Tools:</h3>
