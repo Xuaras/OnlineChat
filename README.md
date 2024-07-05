@@ -11,7 +11,7 @@
   </p>
   </div>
   <div>
-    <h2>Как запустить я протестировать</h2>
+    <h2>Как запустить и протестировать</h2>
     <p>1) git clone</p>
     <p>2) pip -m venv venv в папке с проектом</p>
     <p>3) pip install -r requirements.txt</p>  
