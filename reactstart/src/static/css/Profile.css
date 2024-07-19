@@ -1,0 +1,136 @@
+.user_preview
+{
+    width: 100%;
+}
+.profile_wallpaper
+{
+    width: 725px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: none;
+    height: 200px;
+}
+.profile_wallpaper img{
+    width: 720px;
+    height: 200px;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+.profile_area
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+}
+.profile_image {
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: filter 0.5s;
+}
+.profile_image_active
+{
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: filter 0.5s;
+    filter: brightness(40%);
+}
+@keyframes show_upload
+{
+    10%{
+        transform: translateY(-1%);
+    }
+    100%{
+        transform: translateY(-40%);
+    }
+}
+.upload_image {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+    opacity: 0;
+    display: none;
+}
+.upload_image_active
+{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: 64px;
+    height: 64px;
+    opacity: 1;
+    cursor: pointer;
+    z-index: 1;
+    animation: show_upload 1s forwards;
+}
+.upload_input{
+    display: none;
+}
+.brief_infromation
+{
+    position: absolute;
+    top: 260px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+.profile_info
+{
+    width: 430px;
+    height: 390px;
+    border: 2px solid #a497eb;
+    border-radius: 15px;
+    margin-left: 40%;
+    margin-top: 100px;
+}
+.profile_item{
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+}
+.profile_item span
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: 10px;
+}
+.profile_item input
+{
+    margin-top: 5px;
+    height: 30px;
+    width: 150;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid #a497eb;
+    padding-left: 25px;
+    font-size: 16px;
+}
+.profile_item img
+{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 23px;
+    left: 5px;
+
+}
